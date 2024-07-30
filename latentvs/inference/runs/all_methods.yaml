@@ -1,0 +1,27 @@
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: AEVS
+  model_path: resnet_normal_dct_seed_2/resnet_normal_dct_seed_2.pth
+-
+  type: 'DVS'
+  name: 'DVS'
+  gain: 0.5
+-
+  type: 'PCAVS'
+  gain: 0.5
+  name: PCA_32
+  num_components: 32
+  weights_path: PCA_2020-12-22-13-56-35_500
+-
+  type: 'DCTVS'
+  gain: 0.5
+  name: 'DCT_VS'
+  num_components: 32
+  optimizer:
+    mu: 0.01
+    iter_gauss_newton: 500
+    lambda_gauss_newton: 1.0
+    mu_factor: 0.99
+  interaction_matrix_mixer:
+    type: 'ESM'

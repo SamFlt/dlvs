@@ -1,0 +1,53 @@
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.25_seed_0
+  model_path: resnet_width_0.25_seed_0/resnet_width_0.25_seed_0.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.25_seed_1
+  model_path: resnet_width_0.25_seed_1/resnet_width_0.25_seed_1.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.25_seed_2
+  model_path: resnet_width_0.25_seed_2/resnet_width_0.25_seed_2.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.25_seed_3
+  model_path: resnet_width_0.25_seed_3/resnet_width_0.25_seed_3.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.25_seed_4
+  model_path: resnet_width_0.25_seed_4/resnet_width_0.25_seed_4.pth
+
+
+
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.5_seed_0
+  model_path: resnet_width_0.5_seed_0/resnet_width_0.5_seed_0.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.5_seed_1
+  model_path: resnet_width_0.5_seed_1/resnet_width_0.5_seed_1.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.5_seed_2
+  model_path: resnet_width_0.5_seed_2/resnet_width_0.5_seed_2.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.5_seed_3
+  model_path: resnet_width_0.5_seed_3/resnet_width_0.5_seed_3.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_width_0.5_seed_4
+  model_path: resnet_width_0.5_seed_4/resnet_width_0.5_seed_4.pth

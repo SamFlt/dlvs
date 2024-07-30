@@ -1,0 +1,5 @@
+pca_folder: /local/sfelton/models/pca
+nnimvs_models_folder: /local/sfelton/models/nnimvs
+mlvs_models_folder: /local/sfelton/models/mlvs
+
+dim_models_folder: /local/sfelton/models/dim

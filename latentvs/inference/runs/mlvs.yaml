@@ -1,0 +1,171 @@
+
+
+
+# -
+#   type: 'PBVSCNN'
+#   gain: 0.1
+#   name: pose_regressor
+#   model_path: pose_regressor_6dof_resnet_34_100k_samples_180
+#   border: 5
+# -
+#   type: 'PBVSCNN'
+#   gain: 0.1
+#   name: pose_regressor_10k_samples
+#   model_path: pose_regressor_6dof_resnet_34_10k_samples_180
+#   border: 5
+# - 
+#   type: 'DVS'
+#   name: 'DVS'
+#   gain: 0.5
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: aevs
+#   model_path: aevs_mlvs_retrain/aevs_mlvs_retrain.pth
+# -
+#   type: 'MLVS'
+#   gain: 0.1
+#   name: MLVS_k=1_oversampling
+#   model_path: embedding_model_6_dof_resnet34_180_invariance_loss
+#   dofs: 6
+#   gradient_method:
+#     type: 'knn_regressor'
+#     k: 1
+#     n_jobs: 4
+#   pose_sampler:
+#     type: 'grid_oversampling'
+#     dofs: 6
+#     steps: 10
+#     pose_center: [0, 0, -0.6]
+#     ranges: [0.4, 0.4, 0.4, 60, 60, 120]
+#     near_samples: 10000
+#     near_ranges: [0.04, 0.04, 0.04, 5, 5, 5]
+#   interaction_matrix_mixer:
+#     type: 'current_interaction_matrix'
+#   border: 5
+#   optimizer:
+#     type: 'Linear'
+# -
+#   type: 'MLVS'
+#   gain: 0.1
+#   name: MLVS_k=10_oversampling
+#   model_path: embedding_model_6_dof_resnet34_180_invariance_loss
+#   dofs: 6
+#   gradient_method:
+#     type: 'knn_regressor'
+#     k: 10
+#     n_jobs: 4
+#   pose_sampler:
+#     type: 'grid_oversampling'
+#     dofs: 6
+#     steps: 10
+#     pose_center: [0, 0, -0.6]
+#     ranges: [0.4, 0.4, 0.4, 60, 60, 120]
+#     near_samples: 10000
+#     near_ranges: [0.04, 0.04, 0.04, 5, 5, 5]
+#   interaction_matrix_mixer:
+#     type: 'current_interaction_matrix'
+#   border: 5
+#   optimizer:
+#     type: 'Linear'
+-
+  type: 'MLVS'
+  gain: 0.1
+  name: MLVS_k=50_oversampling
+  model_path: embedding_model_6_dof_resnet34_180_invariance_loss
+  dofs: 6
+  gradient_method:
+    type: 'knn_regressor'
+    k: 50
+    n_jobs: 4
+  pose_sampler:
+    type: 'grid_oversampling'
+    dofs: 6
+    steps: 10
+    pose_center: [0, 0, -0.6]
+    ranges: [0.4, 0.4, 0.4, 45, 45, 90]
+    near_samples: 10000
+    near_ranges: [0.02, 0.02, 0.02, 5, 5, 5]
+  interaction_matrix_mixer:
+    type: 'current_interaction_matrix'
+  border: 5
+  optimizer:
+    type: 'Linear'
+# -
+#   type: 'MLVS'
+#   gain: 0.1
+#   name: MLVS_k=10_oversampling
+#   model_path: embedding_model_6_dof_resnet34_180_invariance_loss
+#   dofs: 6
+#   gradient_method:
+#     type: 'knn_regressor'
+#     k: 10
+#     n_jobs: 1
+#   pose_sampler:
+#     type: 'grid_oversampling'
+#     dofs: 6
+#     steps: 10
+#     pose_center: [0, 0, -0.6]
+#     ranges: [0.4, 0.4, 0.4, 60, 60, 120]
+#     near_samples: 10000
+#     near_ranges: [0.04, 0.04, 0.04, 5, 5, 5]
+#   interaction_matrix_mixer:
+#     type: 'current_interaction_matrix'
+#   border: 5
+#   optimizer:
+#     type: 'Linear'
+
+
+# -
+#   type: 'MLVS'
+#   gain: 0.1
+#   name: MLVS_k=50_oversampling_10k_samples
+#   model_path: embedding_model_6_dof_resnet34_180_invariance_loss_10k_samples
+#   dofs: 6
+#   gradient_method:
+#     type: 'knn_regressor'
+#     k: 50
+#     n_jobs: 4
+#   pose_sampler:
+#     type: 'grid_oversampling'
+#     dofs: 6
+#     steps: 10
+#     pose_center: [0, 0, -0.6]
+#     ranges: [0.4, 0.4, 0.4, 60, 60, 120]
+#     near_samples: 10000
+#     near_ranges: [0.04, 0.04, 0.04, 5, 5, 5]
+#   interaction_matrix_mixer:
+#     type: 'current_interaction_matrix'
+#   border: 5
+#   optimizer:
+#     type: 'Linear'
+# -
+#   type: 'MLVS'
+#   gain: 0.1
+#   name: MLVS_k=50_oversampling_10k_samples
+#   model_path: embedding_model_6_dof_resnet34_180_invariance_loss_10k_samples
+#   dofs: 6
+#   gradient_method:
+#     type: 'knn_regressor'
+#     k: 50
+#     n_jobs: 4
+#   pose_sampler:
+#     type: 'grid_oversampling'
+#     dofs: 6
+#     steps: 10
+#     pose_center: [0, 0, -0.6]
+#     ranges: [0.4, 0.4, 0.4, 60, 60, 120]
+#     near_samples: 10000
+#     near_ranges: [0.04, 0.04, 0.04, 5, 5, 5]
+#   interaction_matrix_mixer:
+#     type: 'current_interaction_matrix'
+#   border: 5
+#   optimizer:
+#     type: 'Linear'
+
+
+
+-
+  type: 'PBVS'
+  name: GT_PBVS
+  gain: 0.1 

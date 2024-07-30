@@ -1,0 +1,17 @@
+Z: 0.6
+border: 5
+camera_settings:
+  h: 234
+  w: 234
+  px: 570
+  py: 570
+  u0: 124
+  v0: 114
+interaction_matrix_mixer: 
+  type: ESM
+optimizer:
+  type: LevenbergMarquardt
+  mu_initial: 0.01
+  iter_gauss_newton: 500
+  mu_factor: 0.995
+  mu_min: 0.0

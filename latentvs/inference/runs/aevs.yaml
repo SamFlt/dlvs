@@ -1,0 +1,124 @@
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_normal_dct_seed_0
+  model_path: resnet_normal_dct_seed_0/resnet_normal_dct_seed_0.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_normal_dct_seed_1
+  model_path: resnet_normal_dct_seed_1/resnet_normal_dct_seed_1.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_normal_dct_seed_2
+  model_path: resnet_normal_dct_seed_2/resnet_normal_dct_seed_2.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_normal_dct_seed_3
+  model_path: resnet_normal_dct_seed_3/resnet_normal_dct_seed_3.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet_normal_dct_seed_4
+  model_path: resnet_normal_dct_seed_4/resnet_normal_dct_seed_4.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_1.0_l_0.0_ae_1.0
+#   model_path: mine_JSD_g_1.0_l_0.0_ae_1.0/mine_JSD_g_1.0_l_0.0_ae_1.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_1.0_l_0.0_ae_0.1
+#   model_path: mine_JSD_g_1.0_l_0.0_ae_0.1/mine_JSD_g_1.0_l_0.0_ae_0.1_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_0.2_l_0.0_ae_1.0_reworked_torch_inverse_double
+#   model_path: mine_JSD_g_0.2_l_0.0_ae_1.0_reworked/mine_JSD_g_0.2_l_0.0_ae_1.0_reworked_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_0.5_ae_1.0
+#   model_path: mine_JSD_l_0.5_ae_1.0/mine_JSD_l_0.5_ae_1.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_0.75_ae_1.0
+#   model_path: mine_JSD_l_0.75_ae_1.0/mine_JSD_l_0.75_ae_1.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_1.0_ae_1.0
+#   model_path: mine_JSD_l_1.0_ae_1.0/mine_JSD_l_1.0_ae_1.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_2.0_ae_1.0
+#   model_path: mine_JSD_l_2.0_ae_1.0/mine_JSD_l_2.0_ae_1.0_encoder.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_1.0_ae_0.0
+#   model_path: mine_JSD_l_1.0_ae_0.0/mine_JSD_l_1.0_ae_0.0_encoder.pth
+
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_1.0_ae_0.25
+  # model_path: mine_JSD_l_1.0_ae_0.25/mine_JSD_l_1.0_ae_0.25_encoder.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_l_1.0_ae_0.5
+#   model_path: mine_JSD_l_1.0_ae_0.5/mine_JSD_l_1.0_ae_0.5_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_1.0_ae_0.0_gain_0.5
+#   model_path: mine_JSD_g_1.0_ae_0.0/mine_JSD_g_1.0_ae_0.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.1
+#   name: mine_JSD_g_1.0_ae_0.0_gain_0.1
+#   model_path: mine_JSD_g_1.0_ae_0.0/mine_JSD_g_1.0_ae_0.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.01
+#   name: mine_JSD_g_1.0_ae_0.0_gain_0.01
+#   model_path: mine_JSD_g_1.0_ae_0.0/mine_JSD_g_1.0_ae_0.0_encoder.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_0.0_l_1.0_ae_0.0_z_32
+#   model_path: mine_JSD_g_0.0_l_1.0_ae_0.0_z_32/mine_JSD_g_0.0_l_1.0_ae_0.0_z_32_encoder.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_1.0_ae_0.25
+#   model_path: mine_JSD_g_1.0_ae_0.25/mine_JSD_g_1.0_ae_0.25_encoder.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: mine_JSD_g_1.0_ae_0.5
+#   model_path: mine_JSD_g_1.0_ae_0.5/mine_JSD_g_1.0_ae_0.5_encoder.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: resnet_dct_loss_seed_0_retest
+#   model_path: resnet_dct_loss_seed_0/resnet_dct_loss_seed_0.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: resnet_dct_loss_seed_1_retest
+#   model_path: resnet_dct_loss_seed_1/resnet_dct_loss_seed_1.pth

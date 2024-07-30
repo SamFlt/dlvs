@@ -1,0 +1,10 @@
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: resnet34_image_woof_smaller_lr
+  model_path: resnet34_image_woof_smaller_lr/resnet34_image_woof_smaller_lr.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: resnet34_imagewoof_static_100
+#   model_path: resnet34_imagewoof_static_100/resnet34_imagewoof_static_100.pth

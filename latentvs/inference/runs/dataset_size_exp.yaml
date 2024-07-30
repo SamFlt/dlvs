@@ -1,0 +1,47 @@
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_100000_same_budget_lr_0.001_v2_seed_0
+#   model_path: dataset_size_100000_same_budget_lr_0.001_v2_seed_0/dataset_size_100000_same_budget_lr_0.001_v2_seed_0.pth
+# # -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_100000_same_budget_lr_0.001_v2_seed_1
+#   model_path: dataset_size_100000_same_budget_lr_0.001_v2_seed_1/dataset_size_100000_same_budget_lr_0.001_v2_seed_1.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_100000_same_budget_lr_0.001_v2_seed_2
+#   model_path: dataset_size_100000_same_budget_lr_0.001_v2_seed_2/dataset_size_100000_same_budget_lr_0.001_v2_seed_2.pth
+
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_2000_same_budget_lr_0.001_v2_seed_0
+#   model_path: dataset_size_2000_same_budget_lr_0.001_v2_seed_0/dataset_size_2000_same_budget_lr_0.001_v2_seed_0.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_2000_same_budget_lr_0.001_v2_seed_1
+#   model_path: dataset_size_2000_same_budget_lr_0.001_v2_seed_1/dataset_size_2000_same_budget_lr_0.001_v2_seed_1.pth
+# -
+#   type: 'NNIMVS'
+#   gain: 0.5
+#   name: dataset_size_2000_same_budget_lr_0.001_v2_seed_2
+#   model_path: dataset_size_2000_same_budget_lr_0.001_v2_seed_2/dataset_size_2000_same_budget_lr_0.001_v2_seed_2.pth
+
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: dataset_size_200_same_budget_lr_0.001_v2_seed_0
+  model_path: dataset_size_200_same_budget_lr_0.001_v2_seed_0/dataset_size_200_same_budget_lr_0.001_v2_seed_0.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: dataset_size_200_same_budget_lr_0.001_v2_seed_1
+  model_path: dataset_size_200_same_budget_lr_0.001_v2_seed_1/dataset_size_200_same_budget_lr_0.001_v2_seed_1.pth
+-
+  type: 'NNIMVS'
+  gain: 0.5
+  name: dataset_size_200_same_budget_lr_0.001_v2_seed_2
+  model_path: dataset_size_200_same_budget_lr_0.001_v2_seed_2/dataset_size_200_same_budget_lr_0.001_v2_seed_2.pth

@@ -1,0 +1,3 @@
+data_dir: /local/sfelton/generator_scenes
+model_save_root_dir: /local/sfelton/models
+inference_save_dir: /local/sfelton/latentvs/simulation
